@@ -1,0 +1,21 @@
+{
+  "name": "requirejs-hbs",
+  "version": "0.0.1",
+  "authors": [
+    "Hargobind Khalsa <hargobind@quickleft.com>"
+  ],
+  "description": "Simple require.js plugin for compiling handlebars templates",
+  "main": "hbs.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "handlebars": "~1.3.0",
+    "requirejs-text": "~2.0.10"
+  }
+}
