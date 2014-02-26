@@ -1,3 +1,11 @@
+/**
+* @author          Hargobind Khalsa
+* @copyright       Copyright (c) 2014 Hargobind Khalsa
+* @license         Licensed MIT
+* @github          http://github.com/khalsah/requirejs-hbs
+* @version         0.0.1
+*/
+
 define(function(require, exports, module) {
   var pluginName = module.id;
   var Handlebars = require("handlebars");
