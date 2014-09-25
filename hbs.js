@@ -64,7 +64,7 @@ define(function(require, exports, module) {
 
   return {
     load: function(name, req, onload, requireConfig) {
-      config = configure(requireConfig.config.hbs);
+      config = configure(requireConfig.config.hbs || {});
 
       if(/!partial$/.test(name)) {
         var partial = name.substring(0, name.length - "!partial".length);
