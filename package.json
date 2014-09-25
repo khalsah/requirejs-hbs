@@ -1,0 +1,16 @@
+{
+  "name": "requirejs-hbs",
+  "version": "0.1.0",
+  "description": "Simple require.js plugin for compiling handlebars templates",
+  "main": "hbs.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khalsah/requirejs-hbs.git"
+  },
+  "author": "Hargobind Khalsa <hargobind@quickleft.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khalsah/requirejs-hbs/issues"
+  },
+  "homepage": "https://github.com/khalsah/requirejs-hbs"
+}
