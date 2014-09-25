@@ -13,7 +13,7 @@
     "url": "https://github.com/khalsah/requirejs-hbs/issues"
   },
   "homepage": "https://github.com/khalsah/requirejs-hbs",
-  "dependencies": {
+  "peerDependencies": {
     "handlebars": "^2.0.0",
     "requirejs-text": "^2.0.12"
   }
