@@ -15,6 +15,7 @@
   "homepage": "https://github.com/khalsah/requirejs-hbs",
   "peerDependencies": {
     "handlebars": "^2.0.0",
+    "requirejs": "^2.1.15",
     "requirejs-text": "^2.0.12"
   }
 }

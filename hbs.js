@@ -1,6 +1,6 @@
 define(function(require, exports, module) {
   var pluginName = module.id;
-  var Handlebars = require("handlebars");
+  var Handlebars = require("handlebars").default;
   var text = require("text");
 
   var buildMap = {};
@@ -33,6 +33,9 @@ define(function(require, exports, module) {
 
       if(config.helpers && node.isHelper) {
         requireHelper(deps, node, config);
+      }
+      if(config.helpers && node.mustache && node.mustache.isHelper) {
+        requireHelper(deps, node.mustache, config);
       }
 
       if(node.program) {
@@ -91,7 +94,8 @@ define(function(require, exports, module) {
             onload(Handlebars.compile(processed.ast));
           });
         }, function(error) {
-          throw Error("Could not load handlebars template");
+          console.warn("Could not load handlebars template");
+          throw error
         });
       }
     },
