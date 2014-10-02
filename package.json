@@ -1,6 +1,6 @@
 {
   "name": "requirejs-hbs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple require.js plugin for compiling handlebars templates",
   "main": "hbs.js",
   "repository": {
